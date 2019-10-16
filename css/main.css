@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+  font-family: Sigmar One, Georgia;
+  color: #333;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #b20953;
+  font-family: Sigmar One, cursive;
+  background-color: #ffe500;
+  padding: .2em .5em .3em;
+  margin: 0;
+}
