@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+  font-family: "Sigmar One", Georgia;
+  color: #333;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+.header {
+  background-color: #ffe500;
+  text-align: center;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  color: #b20953;
+  font-family: "Sigmar One", cursive;
+  background-color: #ffe500;
+  padding-top: 2em;
+  padding: 0;
+  margin: -.3rem;
+  border: 0;
+}
+
+h2 {
+  color: #b20953;
+  padding: .8em 5px .5em 1em;
+  font-size: 190%;
+  margin: 0;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 100%;
+  padding-left: 1em;
+  padding-top: .5em;
+  padding-bottom: .6em;
+  margin: .3em;
+}
+
+.nav{
+  background-color: #ffe500;
+}
+
+nav ul {
+  margin: 0;
+  padding: .2em;
+  padding-top: 0;
+  text-align: center;
+  font-family: Georgia;
+
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.nav a {
+  display: inline-block;
+  width: 9em;
+  padding: 1em;
+  border-radius: 4px;
+  background-color: #b2a212;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-family: Georgia;
+}
+nav a:hover {
+  background-color: #cc1465;
+  color: #fff;
+}
+
+.nav li:first-child a {
+  width: 70px;
+  padding: 5px;
+}
+
+.nav li:nth-child(2) a {
+  width: 105px;
+  padding: 5px;
+}
+
+.nav li:nth-child(3) a {
+  width: 70px;
+  padding: 5px;
+}
+
+.nav li:nth-child(4) a {
+  width: 125px;
+  padding: 5px;
+  margin-top: .5em;
+}
+
+.nav .current {
+  background-color: #b20953;
+}
+
+.footer {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 15px;
+  background-color: #ffe500;
+  padding: .7em;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%
+}
+
+main {
+  padding-left: .75em;
+  padding-right: .75em;
+}
